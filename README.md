@@ -77,4 +77,5 @@
 ### PostgreSQL username and password
 
 Ensure that your correct PostgreSQL URL, username, and password are entered within the double qoutation marks in the DatabaseConnection.java file on lines 6, 7, and 8 respectively.
+
 Total file path is /PRG381_Project/src/main/java/com.example.firstwebapp2/dao/DatabaseConnection.java
