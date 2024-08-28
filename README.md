@@ -63,15 +63,18 @@
 2. **Configure Tomcat in IntelliJ IDEA:**
    - Navigate to the `Run` tab and select `Edit Configurations`.
    - Click on the `+` button to add a new configuration:
+   
    ![img_1.png](img_1.png)
+
    - Choose `Smart Tomcat` as the configuration type.
    - In the `Configuration` tab:
      - Click the `Configure` button next to the Tomcat Server field
-       > [!NOTE]
-       > The rest of the configuration settings should be automatically populated. Do not modify these default settings.   
       - Specify the Tomcat Installation Directory:
         - In the `Other Settings` section, locate and select the folder here Tomcat Server was installed:
         ![img_2.png](img_2.png)
+
+> [!NOTE]
+> The rest of the configuration settings should be automatically populated. Do not modify these default settings.
 
 ### PostgreSQL username and password
 
