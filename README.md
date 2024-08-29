@@ -1,3 +1,16 @@
+## IntelliJ IDEA
+> [!NOTE]
+> This project can only run on the IntelliJ IDEA Ultimate Edition due to Tomcat Server.
+### Downloading and Installing IntelliJ IDEA Ultimate Edition
+1. Download the Ultimate Edition [here](https://www.jetbrains.com/idea/download/?section=windows). (`Download` -> `.exe (Windows)`)
+2. Open the "ideaIU-2024.2.0.2.exe" file in Downloads
+3. Go through the IntelliJ IDEA Setup. (`Next` -> `Select Destination Folder`)
+4. Select the following options for the installation:   
+<img src="https://github.com/user-attachments/assets/a6194d9e-1bfe-44df-8903-fa4c61d826bb" alt="image" width="400">
+
+5. Select the `JetBrains` folder as the STart Menu FOlder.
+6. Install.
+
 ## PostGreSQL DB and Table setup:
  
 1. Install PostgreSQL v15.8 using these [instructions](https://www.youtube.com/watch?v=0n41UTkOBb0).
@@ -52,7 +65,8 @@
    - Launch the downloaded `.exe` file.
    - During installation, follow these steps:
      - **Component Selection:** Ensure that both Host Manager and Examples are selected
-      ![img.png](img.png)
+      <img src="https://github.com/user-attachments/assets/1ad6140e-913b-44e6-9135-837d78b563a0" alt="image" width="400">
+
      - **Default Settings:** Leave all other installation options as their default.
  
 ### Configuration in IntelliJ IDEA
@@ -64,14 +78,14 @@
    - Navigate to the `Run` tab and select `Edit Configurations`.
    - Click on the `+` button to add a new configuration:
    
-   ![img_1.png](img_1.png)
+   <img src="https://github.com/user-attachments/assets/5aff7628-4423-4999-a655-d8fe9da710ce" alt="image" width="200">
 
    - Choose `Smart Tomcat` as the configuration type.
    - In the `Configuration` tab:
      - Click the `Configure` button next to the Tomcat Server field
       - Specify the Tomcat Installation Directory:
         - In the `Other Settings` section, locate and select the folder here Tomcat Server was installed:
-        ![img_2.png](img_2.png)
+        <img src="https://github.com/user-attachments/assets/cffaddc7-2713-466d-8f98-b708e8b62b98" alt="image" width="350">
 
 > [!NOTE]
 > The rest of the configuration settings should be automatically populated. Do not modify these default settings.
