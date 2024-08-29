@@ -11,6 +11,7 @@
 
 5. Select the `JetBrains` folder as the STart Menu FOlder.
 6. Install.
+7. Open the cloned GitHub repository with Apache IntelliJ IDEA.
 
 ## PostGreSQL DB and Table setup:
  
