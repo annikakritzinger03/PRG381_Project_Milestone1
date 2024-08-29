@@ -20,7 +20,7 @@
 (It may be necessary to refresh: `Servers` -> `Refresh`):
  
    ```sql
-   CREATE DATABASE LibraryManagementDB;
+   CREATE DATABASE "LibraryManagementDB";
 4. Right click on LibraryManagementDB -> Query Tool
 5. Paste the following script, and Execute Script (F5)   
 (It may be necessary to refresh):
