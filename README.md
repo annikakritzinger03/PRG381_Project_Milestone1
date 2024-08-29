@@ -1,3 +1,4 @@
+# PRG381 Milestone 1
 ## IntelliJ IDEA
 > [!NOTE]
 > This project can only run on the IntelliJ IDEA Ultimate Edition due to Tomcat Server.
