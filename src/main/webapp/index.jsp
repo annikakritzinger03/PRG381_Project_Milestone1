@@ -21,6 +21,17 @@
         function redirectToRegister() {
             window.location.href = 'Register.jsp';
         }
+        function togglePasswordVisibility() {
+            var passwordField = document.getElementById("password");
+            var toggleText = document.getElementById("togglePasswordText");
+            if (passwordField.type === "password") {
+                passwordField.type = "text";
+                toggleText.innerText = "Hide";
+            } else {
+                passwordField.type = "password";
+                toggleText.innerText = "Show";
+            }
+        }
     </script>
 </head>
 <body style="border: 2px solid white;">
@@ -29,9 +40,12 @@
     <form action="LoginServlet" method="post">
         <label for="username">Username:</label><br>
         <input id="username" type="text" name="username" required><br>
-        <label for="password">Password:</label><br>
-        <input id="password" type="password" name="password" required><br>
-        <button><a>Login</a></button>
+        <div class="password-container">
+            <label for="password">Password:</label>
+            <input id="password" type="password" name="password" required>
+            <button type="button" id="togglePasswordText" class="toggle-password" onclick="togglePasswordVisibility()">Show</button>
+        </div>
+        <button type="submit">Login</button>
         <p id="errorMessage"></p>
     </form>
 </div>

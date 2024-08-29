@@ -38,7 +38,7 @@ public class LoginServlet extends HttpServlet {
         }
 
         if (!isValid) {
-            RequestDispatcher dispatcher = request.getRequestDispatcher("Login.jsp");
+            RequestDispatcher dispatcher = request.getRequestDispatcher("index.jsp");
             dispatcher.forward(request, response);
             return;
         }
@@ -57,7 +57,7 @@ public class LoginServlet extends HttpServlet {
                             dispatcher.forward(request, response);
                         } else {
                             // Invalid credentials
-                            response.sendRedirect("Login.jsp?error=Invalid+username+or+password");
+                            response.sendRedirect("index.jsp?error=Invalid+username+or+password");
                         }
                     }
                 }
@@ -65,7 +65,7 @@ public class LoginServlet extends HttpServlet {
         } catch (SQLException e) {
             e.printStackTrace();
             request.setAttribute("error", "Database error");
-            RequestDispatcher dispatcher = request.getRequestDispatcher("Login.jsp");
+            RequestDispatcher dispatcher = request.getRequestDispatcher("index.jsp");
             dispatcher.forward(request, response);
         }
     }
